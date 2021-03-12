@@ -1,0 +1,171 @@
+
+html
+{
+	box-sizing: border-box;
+	background: url(../images/background.png) no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
+*,
+*:before,
+*:after
+{
+	box-sizing: inherit;
+}
+
+.title
+{
+	background-color: red;
+	text-align: center;
+	height: 5em;
+}
+
+.title>h1
+{
+	color: black;
+	text-transform: uppercase;
+	font-size: 3em;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.center
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+	
+.button
+{
+	display: inline-block;
+	background: black;
+	color: white;
+	border: 2px outset gray;
+	width: 100px;
+	margin: 30px;
+	padding: 5px;
+	text-align: center;
+	text-transform: 'Orbitron', sans-serif;
+	letter-spacing: 0.122em;
+	font-weight: 600;
+}
+
+.button:hover
+{
+	background-color: grey;
+	cursor: pointer;
+}
+
+.button:active
+{
+	background-color: red;
+	border: 2px inset gray;
+}
+
+.square
+{
+	background-color: yellow;
+	border: 1px outset grey;
+	float: left;
+}
+
+.changeBackground
+{
+	background-color: lightblue;
+}
+
+.flag
+{
+	background-image: url(../images/flag.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+.c4
+{
+	background-image: url(../images/c4.png);
+	background-repeat: no-repeat;
+	background-size: 300% 100%;
+	background-position: center;
+}
+
+.instructions
+{
+	color: blachedalmond;
+	margin: 15px;
+	text-transform: uppercase;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.instructions>h3
+{
+	color: white;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.timer
+{
+	color: red;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#board
+{
+	margin: 0 auto;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
