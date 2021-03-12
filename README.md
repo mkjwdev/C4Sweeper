@@ -10,3 +10,4 @@ Copyright (c) 2019 mkjwdev
 1. Download ZIP
 2. Extract ZIP
 3. Run index.html
+4. Have fun
