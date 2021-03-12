@@ -8,4 +8,5 @@ Copyright (c) 2019 mkjwdev
 ## Running locally
 
 1. Download ZIP
-2. Run index.html
+2. Extract ZIP
+3. Run index.html
