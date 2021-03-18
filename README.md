@@ -3,7 +3,7 @@ A simple variant of Minesweeper made in 2019.
 
 ### Original Work
 
-Copyright (c) 2019 mkjwdev
+Copyright (c) 2019 Martino Kang
 
 ## Running locally
 
